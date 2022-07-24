@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "example-coffee-addon",
+  "version": "${version}",
+  "name": "ExampleCoffeeAddon",
+  "description": "An example coffee addon",
+  "authors": [
+    "0x150"
+  ],
+  "contact": {
+    "website": "https://client.coffee"
+  },
+  "license": "MIT",
+  "icon": "assets/ExampleCoffeeAddon/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "me.x150.examplecoffeeaddon.ExampleCoffeeAddon"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "minecraft": "1.19"
+  }
+}
