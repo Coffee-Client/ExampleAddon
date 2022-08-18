@@ -46,7 +46,7 @@ public class ExampleModule extends AddonModule {
         // 1x1x1 cube to represent dimensions
         Vec3d dimensions = new Vec3d(1, 1, 1);
         // Render a cube, color green with opacity 100/255, outline red, centered at 3 blocks above the player, with 1x1x1 dimensions
-        Renderer.R3D.renderEdged(matrices, startPos.subtract(dimensions.multiply(0.5)), dimensions, new Color(50, 255, 50, 100), Color.RED);
+        Renderer.R3D.renderEdged(matrices, new Color(50, 255, 50, 100), Color.RED, startPos.subtract(dimensions.multiply(0.5)), dimensions);
     }
 
     // Called when the hud has been rendered
